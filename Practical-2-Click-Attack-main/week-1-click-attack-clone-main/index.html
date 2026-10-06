@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Attack</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1 id="title">Click Attack</h1>
+    <div class="card">
+      <label for = "playerName">Player Name:</label>
+      <input id="playerName" type="text">
+      <label for = "attackValue">Attack Value:</label>
+      <input id="attackValue" type="number" min="1" max="10"value="1">
+      </div>
+    <p id="message" class="feedback">
+      Enter your name and attack value
+    </p>
+
+    <p>Score: <span id="score">0</span></p>
+
+    <button id="attackButton">Attack</button>
+    <button id="powerButton">Power Attack</button>
+    <button id="resetButton">Reset</button>
+<p>Number of attacks: <span id="attackCount">0</span></p>
+    <p>Highest Damage: <span id="highest">0</span></p>
+<section class="card">
+  <h2>Attack History</h2>
+  <ul id="history"></ul>
+</section>
+</body>
+</html>
